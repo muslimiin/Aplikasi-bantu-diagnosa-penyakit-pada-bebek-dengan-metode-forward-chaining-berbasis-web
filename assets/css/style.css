@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap");
+
+* {
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+}
+
+section {
+	box-sizing: border-box;
+	margin: 70px 0;
+}
+
+a {
+	color: #152c5b !important;
+}
+
+.navbar .container a.navbar-brand {
+	font-weight: 600 !important;
+}
+
+#content .container .my-card {
+	min-height: 350px !important;
+}
+
+.navbar-nav .nav-item.active a.nav-link {
+	color: #3252df !important;
+	font-weight: 500;
+}
+
+.my-primary-color {
+	color: #152c5b !important;
+}
+
+.my-second-color {
+	color: #3252df !important;
+}
+
+.my-gray-500 {
+	color: #c4c4c4 !important;
+}
+
+.bg-primary-color {
+	background-color: #152c5b !important;
+	border: #152c5b !important;
+}
+
+.bg-second-color {
+	background-color: #3252df !important;
+	border: #3252df !important;
+}
+
+.shadow-primary-color {
+	box-shadow: #152c5b !important;
+}
+
+.shadow-second-color {
+	box-shadow: 0 8px 15px #3252df !important;
+}
+
+/* LOGIN */
+.form-control:disabled {
+	background-color: white;
+}
+
+.form__password {
+	width: 100%;
+	background-color: black;
+	border: 1px solid #ced4da;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.form__password input {
+	flex: 1;
+	padding: 0.375rem 0.75rem;
+	border: none !important;
+}
+
+.form__password button {
+	border: none;
+	outline: none;
+	width: 50px;
+	background-color: white;
+}
+
+button {
+	outline: none !important;
+	border: none;
+}
+
+/* RESET  */
+a#dropdownMenuLink::after {
+	display: none;
+}
+
+label {
+	cursor: pointer;
+	color: #383a3f;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+label input[type="checkbox"] + .label-text:hover:before {
+	color: #fe4365;
+}
+label input[type="checkbox"] {
+	display: none;
+}
+label input[type="checkbox"] + .label-text:before {
+	content: "";
+	color: #dddfe6;
+	font-family: "fontAwesome";
+	line-height: 1;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+label input[type="checkbox"]:checked + .label-text:before {
+	content: "";
+	color: #fe4365;
+	animation: tick 150ms ease-in;
+}
+label input[type="checkbox"]:disabled + .label-text:before {
+	content: "";
+	color: #dddfe6;
+}
